@@ -1,0 +1,38 @@
+.nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.nav-brand {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.nav-menu {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.project {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 1em;
+}
+
+
+/* --- MEDIA QUERIES --- */
+@media (max-width: 1024px) {
+    .left, .right {
+        grid-column: span 3; 
+    }
+    .right {
+        padding: 1.5em;
+    }
+}
