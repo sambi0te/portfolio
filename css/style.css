@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Work Sans, Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -189,4 +192,3 @@ h3.project-title {
 .social-list-item {
     padding-right: 1em;
 }
-
