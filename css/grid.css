@@ -35,4 +35,13 @@
     .right {
         padding: 1.5em;
     }
+    #page {
+        padding: .5em;
+    }
+    .nav-brand {
+        display: none;
+    }
+    .nav-menu {
+        grid-column: span 5;
+    }
 }
